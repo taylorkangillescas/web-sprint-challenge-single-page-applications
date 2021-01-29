@@ -3,6 +3,8 @@ import {Route, Link, Switch} from 'react-router-dom';
 import Form from './components/Form';
 import axios from 'axios';
 import './App.css';
+import * as yup from 'yup';
+import schema from './Schema'
 
 const App = () => {
   return (
